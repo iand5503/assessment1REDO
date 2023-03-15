@@ -52,6 +52,20 @@ const pinkPrice = .55
 // CODE HERE
 
 
+for (let i = 0; i < fujiAcres.length; i++) {
+    totalAcres += fujiAcres[i];
+  }
+  
+  for (let i = 0; i < galaAcres.length; i++) {
+    totalAcres += galaAcres[i];
+  }
+  
+  for (let i = 0; i < pinkAcres.length; i++) {
+    totalAcres += pinkAcres[i];
+  }
+  
+  console.log(totalAcres);
+
 
 
 
@@ -69,7 +83,21 @@ const pinkPrice = .55
 
 // CODE HERE
 
-
+for (let i = 0; i < fujiAcres.length; i++) {
+    totalAcres += fujiAcres[i];
+  }
+  
+  for (let i = 0; i < galaAcres.length; i++) {
+    totalAcres += galaAcres[i];
+  }
+  
+  for (let i = 0; i < pinkAcres.length; i++) {
+    totalAcres += pinkAcres[i];
+  }
+  
+  let averageDailyAcres = totalAcres / (fujiAcres.length + galaAcres.length + pinkAcres.length);
+  
+  console.log(averageDailyAcres);
 
 
 
@@ -107,7 +135,16 @@ let days = 0
 
 // CODE HERE
 
+let acresLeft = 174;
+let days = 0;
+const dailyAverage = 17;
 
+while (acresLeft > 0) {
+  days++;
+  acresLeft -= dailyAverage;
+}
+
+console.log(days);
 
 // PROBLEM 4
 
@@ -135,12 +172,24 @@ let days = 0
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
 
 
+let fujiTons = [];
+let galaTons = [];
+let pinkTons = [];
 
+const tonsPerAcre = 6.5;
+
+for (let i = 0; i < fujiAcres.length; i++) {
+  fujiTons.push(fujiAcres[i] * tonsPerAcre);
+}
+
+for (let i = 0; i < galaAcres.length; i++) {
+  galaTons.push(galaAcres[i] * tonsPerAcre);
+}
+
+for (let i = 0; i < pinkAcres.length; i++) {
+  pinkTons.push(pinkAcres[i] * tonsPerAcre);
 
 
 
@@ -162,10 +211,19 @@ let days = 0
 
 // CODE HERE 
 
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
+const tonsPerAcre = 6.5;
 
+for (let i = 0; i < fujiAcres.length; i++) {
+  fujiTons.push(fujiAcres[i] * tonsPerAcre);
+}
+
+for (let i = 0; i < galaAcres.length; i++) {
+  galaTons.push(galaAcres[i] * tonsPerAcre);
+}
+
+for (let i = 0; i < pinkAcres.length; i++) {
+  pinkTons.push(pinkAcres[i] * tonsPerAcre);
+}
 
 
 
@@ -189,9 +247,9 @@ let days = 0
 
 // CODE HERE
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+const fujiProfit = fujiPounds * fujiPrice / 100;
+const galaProfit = galaPounds * galaPrice / 100;
+const pinkProfit = pinkPounds * pinkPrice / 100;
 
 
 
@@ -209,3 +267,5 @@ let days = 0
 */
 
 // CODE HERE
+
+const totalProfit = fujiProfit + galaProfit + pinkProfit;

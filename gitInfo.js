@@ -89,4 +89,4 @@ const gitCommitCode = "git commit -m "message text" "
 
 //CODE HERE
 
-const gitPushDefinition = ""
+const gitPushDefinition = "transmits local commits to the cloud repository"
