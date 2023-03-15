@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+const gitDefinition = "version control software"
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = "hosting platform for code management"
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+const gitInitDefinition = "Initialize a local repository"
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+const gitCloneDefinition = "target an existing repository and clone on your local machine"
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = "show the stsatus of the active directory"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +64,9 @@
 
 //CODE HERE
 
+const gitAddDefinition = "add files to the staging area of your local repository"
+const gitAddCode = 'git add <file name>'
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +78,8 @@
 
 //CODE HERE
 
+const gitCommitDefinition = "captures a snapshot of the current project changes"
+const gitCommitCode = "git commit -m "message text" "
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +88,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = ""
